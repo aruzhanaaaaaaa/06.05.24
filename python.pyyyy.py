@@ -71,4 +71,17 @@ class Person:
 p1 = Person("Аружан",18,"Исалдаева")
 p1.my_method()
 p1 = Person("Аружан",18,"")
-p1.my_method()
+p1.my_method
+
+
+class Car:
+    def _init_(self,marc,subname,age):
+        self.marc = marc
+        self.subname = subname
+        self.age = age
+
+    def my(self):
+        print("Марка "+ self.marka, self.subname , self.age)
+
+p1 = Car("Tayota", "Camry" , 2024)
+p1.my()
